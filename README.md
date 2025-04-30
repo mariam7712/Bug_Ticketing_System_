@@ -65,37 +65,6 @@ Create a new user account.
 
 Login to existing account.
 
-### Tickets
-
-#### GET /api/tickets
-
-Get all tickets (with optional filtering).
-
-#### GET /api/tickets/{id}
-
-Get specific ticket details.
-
-#### POST /api/tickets
-
-Create a new ticket.
-
-#### PUT /api/tickets/{id}
-
-Update an existing ticket.
-
-#### DELETE /api/tickets/{id}
-
-Delete a ticket.
-
-### Comments
-
-#### GET /api/tickets/{ticketId}/comments
-
-Get all comments for a ticket.
-
-#### POST /api/tickets/{ticketId}/comments
-
-Add a comment to a ticket.
 
 ### Users
 
