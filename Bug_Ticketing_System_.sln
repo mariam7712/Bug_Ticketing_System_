@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bug_Ticketing_System_", "Bug_Ticketing_System_\Bug_Ticketing_System_.csproj", "{793B9FFA-D184-4442-8BF1-33DCBC94013B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{910591FD-EC6B-4050-ADFC-52D3999EEFBA} = {910591FD-EC6B-4050-ADFC-52D3999EEFBA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bug_Ticketing_System_BL", "Bug_Ticketing_System_BL\Bug_Ticketing_System_BL.csproj", "{910591FD-EC6B-4050-ADFC-52D3999EEFBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B82800AE-446D-4A65-8D4B-1C1C8037ECAA} = {B82800AE-446D-4A65-8D4B-1C1C8037ECAA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bug_Ticketing_system_DAL", "Bug_Ticketing_system_DAL\Bug_Ticketing_system_DAL.csproj", "{B82800AE-446D-4A65-8D4B-1C1C8037ECAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{793B9FFA-D184-4442-8BF1-33DCBC94013B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793B9FFA-D184-4442-8BF1-33DCBC94013B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793B9FFA-D184-4442-8BF1-33DCBC94013B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793B9FFA-D184-4442-8BF1-33DCBC94013B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910591FD-EC6B-4050-ADFC-52D3999EEFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910591FD-EC6B-4050-ADFC-52D3999EEFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910591FD-EC6B-4050-ADFC-52D3999EEFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910591FD-EC6B-4050-ADFC-52D3999EEFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82800AE-446D-4A65-8D4B-1C1C8037ECAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82800AE-446D-4A65-8D4B-1C1C8037ECAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82800AE-446D-4A65-8D4B-1C1C8037ECAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82800AE-446D-4A65-8D4B-1C1C8037ECAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

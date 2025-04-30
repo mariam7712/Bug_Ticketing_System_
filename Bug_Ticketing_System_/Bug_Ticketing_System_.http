@@ -1,0 +1,6 @@
+@Bug_Ticketing_System__HostAddress = http://localhost:5111
+
+GET {{Bug_Ticketing_System__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
