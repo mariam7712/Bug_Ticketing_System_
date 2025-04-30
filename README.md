@@ -13,15 +13,6 @@ A robust bug tracking and ticketing system built to help teams manage and track 
 - Email notifications
 - Search and filter functionality
 
-## Tech Stack
-
-- Backend: ASP.NET Core
-- Database: SQL Server
-- ORM: Entity Framework Core
-- Authentication: JWT (JSON Web Tokens)
-- Frontend: React.js
-- UI Framework: Material-UI
-- State Management: Redux
 
 ## Getting Started
 
@@ -116,35 +107,6 @@ Get all users.
 
 Get specific user details.
 
-## Database Schema
 
-### Users
-
-- Id (PK)
-- Username
-- Email
-- PasswordHash
-- Role
-- CreatedAt
-
-### Tickets
-
-- Id (PK)
-- Title
-- Description
-- Status
-- Priority
-- AssignedTo (FK)
-- CreatedBy (FK)
-- CreatedAt
-- UpdatedAt
-
-### Comments
-
-- Id (PK)
-- TicketId (FK)
-- UserId (FK)
-- Content
-- CreatedAt
 
 
